@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang ="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>横書き原稿入力</title> 
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>     
+      <form method="POST"　action="yoko_input.php" >
+      <div class="wrapper"> 
+          
+          原稿入力：<br>
+            <textarea name="message" cols="90" rows="40">ここに原稿を入力してください。</textarea><br>
+          <br>
+          希望のフォント（字体）を選んでください。(クリックで見本をご覧ください）<br>
+         <a href="https://fonts.google.com/specimen/Noto+Serif+JP?subset=japanese"> Noto Serif JP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://fonts.google.com/specimen/Reggae+One?subset=japanese">Reggae One</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://fonts.google.com/specimen/New+Tegomin?subset=japanese#standard-styles" >Tegomin</a><br>
+          <a href="https://fonts.google.com/specimen/Hachi+Maru+Pop?subset=japanese#standard-styles">Hachi Maru Pop</a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://fonts.adobe.com/fonts/a-otf-ryumin-pr6n">A-OTF リュウミン Pr6N</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://fonts.adobe.com/fonts/ta-rb">TA-rb0925 Regular</a><br><br>
+
+          
+          <table>
+          <tr>
+            <td>適用フォント（✅してください）</td>
+            <td>
+                <input type="checkbox" name="course[]" value="Noto Serif JP">Noto Serif JP
+                <input type="checkbox" name="course[]" value="Reggae One">Reggae One
+                <input type="checkbox" name="course[]" value="Tegomin">Tegomin　<br>
+                <input type="checkbox" name="course[]" value="Hachi Maru Pop">Hachi Maru Pop
+                <input type="checkbox" name="course[]" value="A-OTF リュウミン Pr6N">A-OTF リュウミン Pr6N <br>
+                <input type="checkbox" name="course[]" value="TA-rb0925 Regular">TA-rb0925 Regular
+                
+            </td>
+        </tr>
+        </table>   
+
+
+          <input type="submit" value="確認する" name="submit1">
+          
+      
+          
+      </div>    
+          </form>
+      </body>
+</html>
