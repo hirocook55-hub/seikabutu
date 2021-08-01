@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ChangeFontsTest</title>
+    <link rel="stylesheet" href="ChangeFontsTest.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+   <script>
+    (function(d) {
+      var config = {
+        kitId: 'stp5bmw',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+      </head>
+      <body>
+        <div class="wrapper">
+
+          <table height="50px">
+             <form>
+            <input type="button" value="Notoにする" onclick="chgFont(0)">
+            <input type="button" value="DNP秀英４号かな" onclick="chgFont(1)">
+            <input type="button" value="HachiMaruにする" onclick="chgFont(2)">
+            <input type="button" value="New Tegominにする" onclick="chgFont(3)">
+            <input type="button" value="斜体にする" onclick="chgFont(4)">
+            <input type="button" value="斜体を戻す" onclick="chgFont(5)">
+            
+            </form>
+            </table>
+            <div id="fontdisp" >
+            
+     <div class="tate">
+         
+        <table >
+            <tr><td><h2>「草枕」（夏目漱石）より</h2></td>
+        
+        <td>
+            <span style="font-size:small">　　　このページは、字体の違いがわかりやすくなるように、<br>　　　前の例より文字を大きくしています。</span>
+        </td>
+</tr>
+</table>
+<table >
+        　<ps>　山路を登りながら、こう考えた。
+          　<b>智に働けば角（かど）が立つ。情に棹（さお）させば流される。意地を通せば窮屈（きゅうくつ）だ。</b>とかくに人の世は住みにくい。
+          　住みにくさが高こうじると、安い所へ引き越したくなる。どこへ越しても住みにくいと悟った時、詩が生れて、画(え)が出来る。
+          　人の世を作ったものは神でもなければ鬼でもない。やはり向う三軒両隣にちらちらするただの人である。<br>
+          ただの人が作った<b>人の世が住みにくいからとて、越す国はあるまい。あれば人でなしの国</b>へ行くばかりだ。
+          人でなしの国は人の世よりもなお住みにくかろう。
+            </ps></table>
+            <table>
+              <img src="yamamitih.png" alt=""　width="200" height="400" align="right">
+          </table>        
+        
+        </p>
+    </table>
+     </div>
+　    </div>
+          
+</div>
+    
+    
+    <script>
+    
+    function chgFont(num)
+    {
+      if (document.getElementById)
+      {
+        //document.getElementByID("id名")の省略
+        var obj=document.getElementById("fontdisp");
+        
+        switch(num)
+        {
+         //フォントの変更 
+         case 0: obj.style.fontFamily = 'Noto Serif JP', serif; break;
+         case 1: obj.style.fontFamily = 'dnp-shuei-4go-std', sans-serif; break;
+         case 2: obj.style.fontFamily = 'Hachi Maru Pop', cursive; break;
+         case 3: obj.style.fontFamily = 'New Tegomin', serif; break;
+             
+         //斜体のON･OFF 
+         case 4: obj.style.fontStyle = "italic"; break;
+         case 5: obj.style.fontStyle = "normal"; break;
+    
+         
+        }
+      }
+    }
+    
+    </script>
+ </body>
+</html>

@@ -1,0 +1,43 @@
+
+@charset "UTF-8";
+
+/* 全てのwebページに適用される　*/
+html { font-family: 'Hachi Maru Pop', cursive;
+    font-weight: 400;
+        font-style: normal;  
+        font-size: 10px;}
+
+body {
+    margin: 50px 0 0 0;
+    background-color:  #eeece9;
+}
+.wrapper {
+    margin: 0 auto 0 auto;
+    min-width: 600px;
+    max-width: 800px;
+    
+}
+
+   
+   
+
+   h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 4rem;
+   }
+
+  h2 {
+    font-family: 'Hachi Maru Pop', cursive;
+
+    font-size: 3rem;
+  }
+  
+  p {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+  }
+
+
+

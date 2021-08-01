@@ -1,0 +1,80 @@
+html { font-family: 'Noto Serif JP', serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
+    font-size: 12px;
+    
+      
+      }
+
+body {
+    margin: 50px 0 0 0;
+    background-color:  #eeece9;
+}
+.wrapper {
+    margin: 0 auto 0 auto;
+    min-width: 600px;
+    max-width: 800px;
+    
+}
+
+   div.sample {
+      margin: 20px;
+      padding: 10px;
+      border: solid 1px #808080;
+      float: left;
+   }
+   
+   .tate {
+      -ms-writing-mode: tb-rl;            /* IE用　*/
+      -webkit-writing-mode: vertical-rl;  /* chrome用　*/
+      -o-writing-mode: vertical-rl;       /* opera用　*/
+     writing-mode: vertical-rl;
+      margin: 0 auto 0 auto;
+      max-width: 800px;
+      max-height: 800px;
+   }
+
+   .disp { border: 2px dotted green;
+   max-width: 800;
+   min-width: 600;
+   padding: 35px;
+   font-size: 20px;
+    line-height:normal;
+    word-spacing: 0.8rem;
+   
+   }
+   .disp46 {
+    border: 2px dotted green;
+    width: 408px;
+    height: 620px;
+    padding: 65px;
+ 
+    }
+   
+   
+
+   h1 {
+    
+    font-size: 4rem;
+   }
+
+  h2 { align-items: center;
+    
+
+    font-size: 2.5rem;
+  }
+  
+  p {  
+    
+    line-height: 2;
+    word-spacing: 0.8rem;
+  }
+  ps {font-size: 1.6rem;
+    line-height: 2;
+    word-spacing: 0.8rem;
+  }
+  
+  
+ 

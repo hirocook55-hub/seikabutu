@@ -1,0 +1,51 @@
+/* General setup */
+
+@font-face {
+  font-family: 'districtregular';
+  src: url('fonts/district-webfont.woff2') format('woff2'),
+       url('fonts/district-webfont.woff') format('woff'),
+       url('fonts/District.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'arbutusslab-regular';
+  src: url('fonts/arbutusslab-regular.ttf') format('ttf'),
+       url('fonts/arbutusslab-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+ 
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-family: 'districtregular', sans-serif;
+  font-size: 7rem;
+}
+
+h2 {
+  font-family: 'districtregular', sans-serif;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'arbutusslab-regular', sans-serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
