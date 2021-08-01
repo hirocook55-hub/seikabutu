@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    font-family: 'Reggae One', cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    font-family: 'Reggae One', cursive;
+    font-style: normal;
+    margin: 0;
+    
+    
+    font-family: 'Reggae One', cursive;
+    font-weight: 200;
+    font-style: normal;
+    }
+    
+    body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    /* Typography */
+    
+    h1 {
+    font-size: 6rem;
+    }
+    
+    h2 {
+    font-size: 4rem;
+    }
+    h1, h2 {
+        font-family: 'Reggae One', cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    p {
+    font-size: 2rem;
+    line-height: 1.3;
+    word-spacing: 0.6em;
+    font-family: 'Reggae One', cursive;
+    }
+    
+    .spfont{font-family: 'Reggae One', cursive;}
+    
+    .antifont{font-family: dnp-shuei-anti-std;
+    
+    }
+        
