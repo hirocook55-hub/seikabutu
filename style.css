@@ -37,18 +37,22 @@ body {
     margin: 1em;
     box-shadow: 5px 10px 10px rgb(32, 78, 14);
     }
-.trans{ 
+.trans{
       transition:transform 2s linear 0s;
-      transform:translate(100px,0px) rotate(375deg);
-      width: 300px;
-      height: 100px;
-      text-align: center;
-      text-shadow: 10px 10px 10px gray;
-      line-height: normal;
-      border-radius: 1em;
-      margin: 2em;
-      background:linear-gradient(90deg, khaki,white);           
+}
+ .trans:hover{
+      transform:rotate(360deg) scale(1.5,1.5);
       }
+      
+      .trans{
+         width: 300px; height: 100px; 
+         border-radius: 20px 20px 20px 20px;
+        color:blue;
+        background:radial-gradient(white,yellow);
+        box-shadow: 5px 10px 10px rgb(32, 78, 14);
+        text-shadow: 5px 10px 10px rgb(32, 78, 14);;
+    }
+    
       
       p {font-size: 1.8rem;}
       ps {font-size: 1.5rem;}
