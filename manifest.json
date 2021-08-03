@@ -3,12 +3,12 @@
     "name": "omoshiroFonts: Do you feeel fun?",
     "icons": [
       {
-        "src": "/image/omosiroFonts_icon192.png",
+        "src": "seikabutu/image/omosiroFonts_icon192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/image/omosiroFonts_icon.png",
+        "src": "seikabutu/image/omosiroFonts_icon.png",
         "type": "image/png",
         "sizes": "512x512"
       }
@@ -24,7 +24,7 @@
         "short_name": "Fonts",
         "description": "Show Fonts’ information",
         "url": " ",
-        "icons": [{ "src": "/image/omosiroFonts_icon192.png", "sizes": "192x192" }
+        "icons": [{ "src": "seikabutu/image/omosiroFonts_icon192.png", "sizes": "192x192" }
         ]
       }
     
