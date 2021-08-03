@@ -1,5 +1,5 @@
 {
-    "short_name": "omoshiro",
+    "short_name": "Fonts",
     "name": "omoshiroFonts: Do you feeel fun?",
     "icons": [
       {
@@ -8,12 +8,12 @@
         "sizes": "192x192"
       },
       {
-        "src": "/image/omoshiroFonts_icon.png",
+        "src": "/image/omosiroFonts_icon.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "/index.html",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
@@ -23,8 +23,8 @@
         "name": "面白Fonts館",
         "short_name": "Fonts",
         "description": "Show Fonts’ information",
-        "url": "/today?source=pwa",
-        "icons": [{ "src": "/image/omoshiroFonts_icon192.png", "sizes": "192x192" }
+        "url": " ",
+        "icons": [{ "src": "/image/omosiroFonts_icon192.png", "sizes": "192x192" }
         ]
       }
     
