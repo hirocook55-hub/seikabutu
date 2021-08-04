@@ -44,20 +44,34 @@
       h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
     })(document);
   </script> 
-
+<script>
+    (function(d) {
+      var config = {
+        kitId: 'jej4aeh',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+    
 </head>
 <body>
     <div class="wrapper">
         <table height="50px">
             <form>
-           <input type="button" value="Notoにする" onclick="chgFont(0)">
-           <input type="button" value="DNP秀英４号かな" onclick="chgFont(1)">
-           <input type="button" value="HachiMaruにする" onclick="chgFont(2)">
-           <input type="button" value="New Tegominにする" onclick="chgFont(3)">
-           <input type="button" value="Ragaeにする" onclick="chgFont(4)">
-           <input type="button" value="ta-rbにする" onclick="chgFont(5)"><br>
-           <input type="button" value="斜体にする" onclick="chgFont(6)">
-           <input type="button" value="斜体を戻す" onclick="chgFont(7)">
+             <input type="button" value="Notoにする" onclick="chgFont(0)">
+       <input type="button" value="DNP秀英４号かな" onclick="chgFont(1)">
+       <input type="button" value="HachiMaruにする" onclick="chgFont(2)">
+       <input type="button" value="New Tegominにする" onclick="chgFont(3)">
+       <input type="button" value="Ragaeにする" onclick="chgFont(4)">
+       <input type="button" value="ta-rbにする" onclick="chgFont(5)"><br>
+       <input type="button" value="ryuminにする" onclick="chgFont(6)">
+       <input type="button" value="36ptにする" onclick="chgFont(7)">
+       <input type="button" value="18ptにする" onclick="chgFont(8)"> 
+       <input type="button" value="14ptにする" onclick="chgFont(9)">
+       <input type="button" value="斜体にする" onclick="chgFont(10)">
+       <input type="button" value="斜体を戻す" onclick="chgFont(11)">
            </form>
            </table>
           
@@ -84,14 +98,18 @@
 </div>
        <table height="50px">
             <form>
-           <input type="button" value="Notoにする" onclick="chgFont(0)">
-           <input type="button" value="DNP秀英４号かな" onclick="chgFont(1)">
-           <input type="button" value="HachiMaruにする" onclick="chgFont(2)">
-           <input type="button" value="New Tegominにする" onclick="chgFont(3)">
-           <input type="button" value="Ragaeにする" onclick="chgFont(4)">
-           <input type="button" value="ta-rbにする" onclick="chgFont(5)"><br>
-           <input type="button" value="斜体にする" onclick="chgFont(6)">
-           <input type="button" value="斜体を戻す" onclick="chgFont(7)">
+             <input type="button" value="Notoにする" onclick="chgFont(0)">
+       <input type="button" value="DNP秀英４号かな" onclick="chgFont(1)">
+       <input type="button" value="HachiMaruにする" onclick="chgFont(2)">
+       <input type="button" value="New Tegominにする" onclick="chgFont(3)">
+       <input type="button" value="Ragaeにする" onclick="chgFont(4)">
+       <input type="button" value="ta-rbにする" onclick="chgFont(5)"><br>
+       <input type="button" value="ryuminにする" onclick="chgFont(6)">
+       <input type="button" value="36ptにする" onclick="chgFont(7)">
+       <input type="button" value="18ptにする" onclick="chgFont(8)"> 
+       <input type="button" value="14ptにする" onclick="chgFont(9)">
+       <input type="button" value="斜体にする" onclick="chgFont(10)">
+       <input type="button" value="斜体を戻す" onclick="chgFont(11)">
            </form>
            </table>
        <table>
@@ -122,15 +140,19 @@ document.getElementById("output-message").innerHTML = textbox.value;
         switch(num)
         {
          //フォントの変更 
-         case 0: obj.style.fontFamily = 'Noto Serif JP', serif; break;
+        case 0: obj.style.fontFamily = 'Noto Serif JP', serif; break;
          case 1: obj.style.fontFamily = 'dnp-shuei-4go-std', sans-serif; break;
          case 2: obj.style.fontFamily = 'Hachi Maru Pop', cursive; break;
          case 3: obj.style.fontFamily = 'New Tegomin', serif; break;
          case 4: obj.style.fontFamily = 'Reggae One', cursive; break;
          case 5: obj.style.fontFamily = 'ta-rb', sans-serif; break;  
-         //斜体のON･OFF 
-         case 6: obj.style.fontStyle = "italic"; break;
-         case 7: obj.style.fontStyle = "normal"; break;
+         case 6: obj.style.fontFamily = ' a-otf-ryumin-pr6n', serif; break;  
+         case 7: obj.style.fontSize = "36pt"; break;
+         case 8: obj.style.fontSize = "18pt"; break;
+         case 9: obj.style.fontSize = "14pt"; break;
+         case 10: obj.style.fontStyle = "italic"; break;
+         case 11: obj.style.fontStyle = "normal"; break;
+    
     
          
         }
