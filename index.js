@@ -1,5 +1,5 @@
 <script>
-    'use strict'
+    'use strict';
 if('serviceWorker' in navigator){
     navigator.serviceWorker.register('my-seivice-worker.js',{scope:'/'})
     .then(function(reg){
