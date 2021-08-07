@@ -1,3 +1,5 @@
+<script>
+    'use strict';
 self.addEventListener('install',(Event=>{
     console.log('service worker install ...');
 }));
@@ -5,3 +7,4 @@ self.addEventListener('install',(Event=>{
 self.addEventListener('activate',(Event)=>{
     console.info('activate',Event);
 });
+</script>
