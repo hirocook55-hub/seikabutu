@@ -1,4 +1,4 @@
-<script>
+
     'use strict';
 if('serviceWorker' in navigator){
     navigator.serviceWorker.register('/my-seivice-worker.js',{scope:'/'})
@@ -8,4 +8,3 @@ if('serviceWorker' in navigator){
         console.log('登録に失敗しました' + error);
     });
 }
-</script>
