@@ -1,0 +1,133 @@
+html { font-family: 'Noto Serif JP', serif;
+
+    font-weight: 400;
+    
+    font-style: normal;
+    font-size: 12px;
+    
+      
+      }
+
+.wrapper {
+    margin: 0 auto 0 auto;
+  
+    max-width: 830px;
+    
+}
+
+   div.sample {
+      margin: 20px;
+      padding: 10px;
+      border: solid 1px #808080;
+      float: left;
+   }
+
+  
+   
+   .disp { border: 2px dotted green;
+   max-width: 800;
+   
+   padding: 35px;
+   font-size: 12pt,14pt,18pt,36pt;
+    line-height:normal;
+    word-spacing: 0.8rem;
+   
+   } 
+   
+   h1 {
+    
+    font-size: 4rem;
+   }
+
+  h2 { align-items: center;
+    
+
+    font-size: 2rem;
+  }
+  
+  p {  
+    
+    line-height: 2;
+    word-spacing: 0.8rem;
+  }
+  ps {font-size: 1.6rem;
+    line-height: 2;
+    word-spacing: 0.8rem;
+   
+  }
+  pm {font-size: 1.3rem;
+    line-height: 2;
+    word-spacing: 0.8rem;
+    background-color:white;
+  }
+
+  body, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(168, 180, 221);
+    color: #333;
+    
+  }
+  
+  #book {
+    background: url("A5hyousi-1.png") no-repeat;
+    position: absolute;
+    width: 830px;
+    height: 800px;
+    
+  }
+  
+  #pages section {
+    background: url("A5page.jpg") no-repeat;
+    display: block;
+    width: 400px;
+    height: 590px;
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    overflow: hidden;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+    #pages section>div {
+      display: block;
+      width: 400px;
+      height: 590px;
+      font-size: 16px;
+    }
+    #pages section p{
+      display: block;
+      width: 400px;
+      height: 590px;
+      font-size: 16px;
+      
+    } 
+    #pages section h2 {
+      padding: 3px 35px;
+      line-height: 1.4em;
+      text-align: justify;
+    }
+    #pages section h2{
+      margin: 15px 0 10px;
+    }
+  
+  #pageflip-canvas {
+    position: absolute;
+    z-index: 100;
+  }
+  
+  
+  
+ 
