@@ -25,7 +25,7 @@ html { font-family: 'Noto Serif JP', serif;
   
    
    .disp { border: 2px dotted green;
-   max-width: 800;
+   max-width: 840;
    
    padding: 35px;
    font-size: 12pt,14pt,18pt,36pt;
@@ -83,7 +83,7 @@ html { font-family: 'Noto Serif JP', serif;
   #pages section {
     background: url("A5page.jpg") no-repeat;
     display: block;
-    width: 800px;
+    width: 830px;
     height: 550px;
     position: absolute;
     left: 415px;
@@ -93,13 +93,13 @@ html { font-family: 'Noto Serif JP', serif;
 
      #pages section>div {
       display: block;
-      width: 400px;
-      height: 500px;
+      width: 800px;
+      height: 550px;
       font-size: 16px;
     }
     #pages section p{
       display: block;
-      width: 400px;
+      width: 800px;
       height: 580px;
       font-size: 16px;
       
