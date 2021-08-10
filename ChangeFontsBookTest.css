@@ -3,7 +3,7 @@ html { font-family: 'Noto Serif JP', serif;
     font-weight: 400;
     
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     
       
       }
@@ -25,7 +25,7 @@ html { font-family: 'Noto Serif JP', serif;
   
    
    .disp { border: 2px dotted green;
-   max-width: 840;
+   max-width: 830;
    
    padding: 35px;
    font-size: 12pt,14pt,18pt,36pt;
@@ -66,24 +66,28 @@ html { font-family: 'Noto Serif JP', serif;
     padding: 0;
   }
   
-   body {
-    background-color: rgb(78, 114, 134);
-    
+  body {
+    background-color: rgb(168, 180, 221);
+  
     
   }
   
   #book {
-    background: url("A5hyousi-1.png") no-repeat;
+    background: url("bookL830_580.png") no-repeat;
     position: absolute;
     width: 830px;
     height: 580px;
+    left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -125px;
     
   }
   
   #pages section {
-    background: url("A5page.jpg") no-repeat;
+    background: url("paper400_550.png") no-repeat;
     display: block;
-    width: 800px;
+    width: 400px;
     height: 550px;
     position: absolute;
     left: 415px;
@@ -91,19 +95,13 @@ html { font-family: 'Noto Serif JP', serif;
     overflow: hidden;
   }
 
-     #pages section>div {
+      #pages section>div {
       display: block;
       width: 400px;
-      height: 550px;
+      height: 500px;
       font-size: 16px;
     }
-    #pages section p{
-      display: block;
-      width: 400px;
-      height: 580px;
-      font-size: 16px;
-      
-    } 
+    #pages section p,
     #pages section h2 {
       padding: 3px 35px;
       line-height: 1.4em;
@@ -117,6 +115,7 @@ html { font-family: 'Noto Serif JP', serif;
     position: absolute;
     z-index: 100;
   }
+  
   
   
   
