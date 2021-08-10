@@ -67,44 +67,34 @@ html { font-family: 'Noto Serif JP', serif;
   }
   
    body {
-    background-color: rgb(168, 180, 221);
+    background-color: rgb(78, 114, 134);
     
     
   }
   
   #book {
-    background: url("A5hyousi-1.png") no-repeat;
+    background: url("bookL830_550.png") no-repeat;
     position: absolute;
     width: 830px;
-    height: 800px;
+    height: 580px;
     
   }
   
   #pages section {
-    background: url("A5page1.jpg") no-repeat;
+    background: url("parer400_550.png") no-repeat;
     display: block;
     width: 400px;
-    height: 590px;
+    height: 550px;
     position: absolute;
-    left: 20px;
+    left: 415px;
     top: 17px;
     overflow: hidden;
   }
 
-  
-
-
-
-
-
-
-
-
-
-    #pages section>div {
+     #pages section>div {
       display: block;
       width: 400px;
-      height: 590px;
+      height: 500px;
       font-size: 16px;
     }
     #pages section p{
