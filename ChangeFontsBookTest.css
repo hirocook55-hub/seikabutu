@@ -83,7 +83,7 @@ html { font-family: 'Noto Serif JP', serif;
   #pages section {
     background: url("A5page.jpg") no-repeat;
     display: block;
-    width: 400px;
+    width: 800px;
     height: 550px;
     position: absolute;
     left: 415px;
@@ -100,7 +100,7 @@ html { font-family: 'Noto Serif JP', serif;
     #pages section p{
       display: block;
       width: 400px;
-      height: 590px;
+      height: 580px;
       font-size: 16px;
       
     } 
