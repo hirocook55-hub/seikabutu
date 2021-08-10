@@ -3,7 +3,7 @@ html { font-family: 'Noto Serif JP', serif;
     font-weight: 400;
     
     font-style: normal;
-    font-size: 16px;
+    font-size: 12px;
     
       
       }
@@ -79,8 +79,7 @@ html { font-family: 'Noto Serif JP', serif;
     height: 580px;
     left: 50%;
 	top: 50%;
-	margin-left: -400px;
-	margin-top: -125px;
+	
     
   }
   
