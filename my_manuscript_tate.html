@@ -1,10 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="manifest" href="manifest.json">
-      <link rel="icon" type="image/x-icon" href="image/omosiroFonts_icon192.png">
 <link rel="stylesheet" href="ChangeFontsTest.css"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,21 +78,15 @@
     
 <ps>ご自分の文章を実際に入力してみてください。改行するところは半角で＜br＞を挿入。<br>
 [表示]ボタンを押して、トップの文字リストから適当な字体を選びクリックすれば、下の緑の<br>点線枠内に、
-字体が変化して表示されます。<br>* 歌集などの単行本によく使われる四六判（127mm×188mm)サイズ、　余白22mm位。環境によって、誤差がでます。</ps>
-   
+字体が変化して表示されます。</ps>
 <h2>たて書き・四六判の作品</h2>
-    <form>
-        <textarea name="manuscript" id="input-message" rows="20" cols=75 ></textarea><br>
-        <input type="button" value="表示"　　onclick="showMessage()"><br>
-    </form>
-    </table>
- <div id="fontdisp"　class="disp46"> 
-  
-   <p id="output-message" class="tate"></p> 
-  </div>
-     
-  
-       
+  <form>
+      <textarea name="manuscript" id="input-message" rows="20" cols=75 ></textarea><br>
+      <input type="button" onclick="showMessage()" value="表示">
+ <div id="fontdisp" class="disp46"> 
+   
+   <p id="output-message" class="tate"></p>
+  </div></form>
   <table height="50px">
     <form>
    <input type="button" value="Notoにする" onclick="chgFont(0)">
@@ -111,10 +103,9 @@
    <input type="button" value="斜体を戻す" onclick="chgFont(11)">
    </form>
 </table>
-     <p><a href="index.html"><b>TOP</b></a></p>
+<p><a href="index.html"><b>TOP</b></a></p>
+ </div>
  </div>   
-    </div> 
-       
 <script language="JavaScript" type="text/javascript">
     
      const showMessage = () => {
