@@ -47,7 +47,7 @@ body {
       
       .trans{
          width: 300px; height: 100px; 
-         padding:20 20 20 20;
+         padding:40 20 20 20;
          border-radius: 20px 20px 20px 20px;
         color:blue;
         background:radial-gradient(white,yellow);
